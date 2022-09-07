@@ -1,0 +1,130 @@
+{
+  "mirond_schema": "v0.1",
+  "user_id": "1",
+  "trips": [
+    {
+      "trip_id": "1",
+      "title": "Vacation Pack List",
+      "start_date": "",
+      "end_date": "",
+      "type": "Vacation Trip",
+      "picture": "https://...",
+      "items": [
+        {
+          "item_id": "GUID1",
+          "is_container": "true",
+          "sku_id": "0",
+          "function_name": "Backpack",
+          "qty": 1,
+          "trip_item_status": "selected",
+          "comment": "Don't want to handle 2 cases as a qty of 2 but as two distinct containers. Nesting suitcases may be disallowed by default (nestable as a property of the item's function?) but possible to override.",
+          "user_item": {
+            "user_item_id": "UGUID1",
+            "user_item_title": "MEC 65l backpack",
+            "user_item_weight_g": 1970
+          },
+          "items": [
+            {
+              "item_id": "GUID2",
+              "is_container": "true",
+              "sku_id": "0",
+              "function_name": "Short-sleeved shirt",
+              "qty": "2",
+              "trip_item_status": "selected",
+              "user_item": null
+            },
+            {
+              "item_id": "GUID5",
+              "is_container": "true",
+              "sku_id": "0",
+              "function_name": "Tent",
+              "qty": "1",
+              "trip_item_status": "selected",
+              "user_item": {
+                "user_item_id": "UGUID2",
+                "user_item_title": "Durston XMid 1P"
+              }
+            },
+            {
+              "item_id": "GUID6",
+              "is_container": "true",
+              "sku_id": "0",
+              "function_name": "Sleeping Bag",
+              "qty": "1",
+              "trip_item_status": "selected",
+              "user_item": null
+            },
+            {
+              "item_id": "GUID7",
+              "is_container": "true",
+              "sku_id": "0",
+              "function_name": "Pillow",
+              "qty": "1",
+              "trip_item_status": "selected",
+              "user_item": null
+            },
+            {
+              "item_id": "GUID8",
+              "is_container": "true",
+              "sku_id": "0",
+              "function_name": "Sleeping Pad",
+              "qty": "1",
+              "trip_item_status": "ordered",
+              "user_item": {
+                "user_item_id": "UGUID3",
+                "user_item_title": "Big Agnes "
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trip_id": "2",
+      "title": "Camping Pack List",
+      "start_date": "2022-08-24",
+      "end_date": "2022-08-26",
+      "type": "Camping Trip",
+      "picture": "https://...",
+      "items": [
+        {
+          "item_id": "GUID3",
+          "is_container": "false",
+          "sku_id": "0",
+          "function_name": "Tent",
+          "qty": "1",
+          "trip_item_status": "selected",
+          "user_item": {
+            "user_item_id": "UGUID2",
+            "user_item_title": "Durston XMid 1P"
+          }
+        },
+        {
+          "item_id": "GUID4",
+          "is_container": "false",
+          "sku_id": "0",
+          "function_name": "Hiking Poles",
+          "qty": "2",
+          "trip_item_status": "buy",
+          "user_item": null
+        }
+      ]
+    }
+
+  ],
+  "user_items": [
+    {
+      "user_item_id": "UGUID1",
+      "user_item_title": "MEC 65l backpack",
+      "user_item_weight_g": 1970
+    },
+    {
+      "user_item_id": "UGUID2",
+      "user_item_title": "Durston XMid 1P",
+      "user_item_weight_g": 884
+    }
+  ]
+}
+
+
+
