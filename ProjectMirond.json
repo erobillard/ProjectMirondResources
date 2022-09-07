@@ -1,6 +1,7 @@
 {
   "mirond_schema": "v0.1",
   "user_id": "1",
+  "selected_list": "1",
   "trips": [
     {
       "trip_id": "1",
